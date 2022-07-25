@@ -1,4 +1,5 @@
 {
+  "homepage": "https://MarcosMArtilotta.github.io/las-paltas-de-marcos",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

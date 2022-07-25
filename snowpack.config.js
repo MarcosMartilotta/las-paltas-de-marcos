@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://MarcosMartilotta.github.io/nombre-del-repo',
+    baseUrl: 'https://MarcosMartilotta.github.io/las-paltas-de-marcos',
   },
 }
