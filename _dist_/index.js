@@ -1,7 +1,7 @@
 
 
 const baseUrl = 'https://platzi-avo.vercel.app';
-const appNode =document.querySelector('#app')
+const appNode = document.querySelector('#app')
 
 
 //intl
@@ -28,7 +28,8 @@ window.fetch(`${baseUrl}/api/avo`)
         responseJson.data.forEach((item) => {
             //Creo una imagen
             const imagen = document.createElement('img');
-            imagen.src = `${baseUrl}${item.image}`
+            imagen.src = `${baseUrl}${item.image}`;
+            imagen.className = 'avocado-img'
             //Crear titulo
             const title = document.createElement('h2');
             title.textContent = item.name;
